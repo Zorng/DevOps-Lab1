@@ -11,7 +11,7 @@
     "start": "node server.js",
     "test": "mocha",
     "lint": "eslint .",
-    "coverage": "c8 --report=text --reporter=html  mocha"
+    "coverage": "c8 --reporter=text --reporter=html  mocha"
   },
   "dependencies": {
     "express": "^5.1.0"
