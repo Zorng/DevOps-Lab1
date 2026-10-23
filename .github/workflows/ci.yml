@@ -19,6 +19,12 @@ jobs:
           node-version: 24
           cache: yarn
 
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Check Yarn version
+        run: yarn --version
+
       - name: Install dependencies
         run: yarn install --immutable
 
